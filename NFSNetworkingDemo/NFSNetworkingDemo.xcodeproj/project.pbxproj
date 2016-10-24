@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7629A173BCA51FE5AF363F16 /* libPods-NFSNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4465977E850EE5441D7024 /* libPods-NFSNetworkingDemo.a */; };
+		A1F7443CAD950545992404BF /* libPods-NFSNetworkingDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B8211690575153B4160CBB /* libPods-NFSNetworkingDemoTests.a */; };
+		BD1790B41DBDE922003E1B55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790B31DBDE922003E1B55 /* main.m */; };
+		BD1790B71DBDE923003E1B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790B61DBDE923003E1B55 /* AppDelegate.m */; };
+		BD1790BA1DBDE923003E1B55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790B91DBDE923003E1B55 /* ViewController.m */; };
+		BD1790BD1DBDE923003E1B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1790BB1DBDE923003E1B55 /* Main.storyboard */; };
+		BD1790BF1DBDE924003E1B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1790BE1DBDE924003E1B55 /* Assets.xcassets */; };
+		BD1790C21DBDE924003E1B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1790C01DBDE924003E1B55 /* LaunchScreen.storyboard */; };
+		BD1790CD1DBDE924003E1B55 /* NFSNetworkingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790CC1DBDE924003E1B55 /* NFSNetworkingDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD1790C91DBDE924003E1B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1790A71DBDE921003E1B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1790AE1DBDE921003E1B55;
+			remoteInfo = NFSNetworkingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3703373954519D79EAB856E9 /* Pods-NFSNetworkingDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemoTests/Pods-NFSNetworkingDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		74B8211690575153B4160CBB /* libPods-NFSNetworkingDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFSNetworkingDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE3D915E9857C3F29ECAA3A /* Pods-NFSNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemo/Pods-NFSNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		871B0BFDA2810216AFF65DF8 /* Pods-NFSNetworkingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemoTests/Pods-NFSNetworkingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1790AF1DBDE921003E1B55 /* NFSNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFSNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1790B31DBDE922003E1B55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD1790B51DBDE922003E1B55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD1790B61DBDE923003E1B55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD1790B81DBDE923003E1B55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD1790B91DBDE923003E1B55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD1790BC1DBDE923003E1B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD1790BE1DBDE924003E1B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD1790C11DBDE924003E1B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD1790C31DBDE924003E1B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1790C81DBDE924003E1B55 /* NFSNetworkingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFSNetworkingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1790CC1DBDE924003E1B55 /* NFSNetworkingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFSNetworkingDemoTests.m; sourceTree = "<group>"; };
+		BD1790CE1DBDE924003E1B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E6314FA6DB9367D437CDBA /* Pods-NFSNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemo/Pods-NFSNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD4465977E850EE5441D7024 /* libPods-NFSNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFSNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1790AC1DBDE921003E1B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7629A173BCA51FE5AF363F16 /* libPods-NFSNetworkingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1790C51DBDE924003E1B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F7443CAD950545992404BF /* libPods-NFSNetworkingDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F296A3831EB2AA8792F58D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE3D915E9857C3F29ECAA3A /* Pods-NFSNetworkingDemo.debug.xcconfig */,
+				C8E6314FA6DB9367D437CDBA /* Pods-NFSNetworkingDemo.release.xcconfig */,
+				871B0BFDA2810216AFF65DF8 /* Pods-NFSNetworkingDemoTests.debug.xcconfig */,
+				3703373954519D79EAB856E9 /* Pods-NFSNetworkingDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD1790A61DBDE921003E1B55 = {
+			isa = PBXGroup;
+			children = (
+				BD1790B11DBDE921003E1B55 /* NFSNetworkingDemo */,
+				BD1790CB1DBDE924003E1B55 /* NFSNetworkingDemoTests */,
+				BD1790B01DBDE921003E1B55 /* Products */,
+				29F296A3831EB2AA8792F58D /* Pods */,
+				C7E461A1E98473B8FE9FAE13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1790B01DBDE921003E1B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1790AF1DBDE921003E1B55 /* NFSNetworkingDemo.app */,
+				BD1790C81DBDE924003E1B55 /* NFSNetworkingDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1790B11DBDE921003E1B55 /* NFSNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD1790B51DBDE922003E1B55 /* AppDelegate.h */,
+				BD1790B61DBDE923003E1B55 /* AppDelegate.m */,
+				BD1790B81DBDE923003E1B55 /* ViewController.h */,
+				BD1790B91DBDE923003E1B55 /* ViewController.m */,
+				BD1790BB1DBDE923003E1B55 /* Main.storyboard */,
+				BD1790BE1DBDE924003E1B55 /* Assets.xcassets */,
+				BD1790C01DBDE924003E1B55 /* LaunchScreen.storyboard */,
+				BD1790C31DBDE924003E1B55 /* Info.plist */,
+				BD1790B21DBDE922003E1B55 /* Supporting Files */,
+			);
+			path = NFSNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		BD1790B21DBDE922003E1B55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1790B31DBDE922003E1B55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD1790CB1DBDE924003E1B55 /* NFSNetworkingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1790CC1DBDE924003E1B55 /* NFSNetworkingDemoTests.m */,
+				BD1790CE1DBDE924003E1B55 /* Info.plist */,
+			);
+			path = NFSNetworkingDemoTests;
+			sourceTree = "<group>";
+		};
+		C7E461A1E98473B8FE9FAE13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD4465977E850EE5441D7024 /* libPods-NFSNetworkingDemo.a */,
+				74B8211690575153B4160CBB /* libPods-NFSNetworkingDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1790AE1DBDE921003E1B55 /* NFSNetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1790D11DBDE924003E1B55 /* Build configuration list for PBXNativeTarget "NFSNetworkingDemo" */;
+			buildPhases = (
+				06955C19C76CD002143A32F0 /* [CP] Check Pods Manifest.lock */,
+				BD1790AB1DBDE921003E1B55 /* Sources */,
+				BD1790AC1DBDE921003E1B55 /* Frameworks */,
+				BD1790AD1DBDE921003E1B55 /* Resources */,
+				D56E68D11096A1D99E8365B0 /* [CP] Embed Pods Frameworks */,
+				014D4217E686A51D73DF1AA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFSNetworkingDemo;
+			productName = NFSNetworkingDemo;
+			productReference = BD1790AF1DBDE921003E1B55 /* NFSNetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD1790C71DBDE924003E1B55 /* NFSNetworkingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1790D41DBDE924003E1B55 /* Build configuration list for PBXNativeTarget "NFSNetworkingDemoTests" */;
+			buildPhases = (
+				8B33399EF6661B1228CEBCB4 /* [CP] Check Pods Manifest.lock */,
+				BD1790C41DBDE924003E1B55 /* Sources */,
+				BD1790C51DBDE924003E1B55 /* Frameworks */,
+				BD1790C61DBDE924003E1B55 /* Resources */,
+				F2B02BDF46ECC2DEC51A65D8 /* [CP] Embed Pods Frameworks */,
+				537BB7E0BD4DC3E77ABF68D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1790CA1DBDE924003E1B55 /* PBXTargetDependency */,
+			);
+			name = NFSNetworkingDemoTests;
+			productName = NFSNetworkingDemoTests;
+			productReference = BD1790C81DBDE924003E1B55 /* NFSNetworkingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1790A71DBDE921003E1B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sqdxxx;
+				TargetAttributes = {
+					BD1790AE1DBDE921003E1B55 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BD1790C71DBDE924003E1B55 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD1790AE1DBDE921003E1B55;
+					};
+				};
+			};
+			buildConfigurationList = BD1790AA1DBDE921003E1B55 /* Build configuration list for PBXProject "NFSNetworkingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1790A61DBDE921003E1B55;
+			productRefGroup = BD1790B01DBDE921003E1B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1790AE1DBDE921003E1B55 /* NFSNetworkingDemo */,
+				BD1790C71DBDE924003E1B55 /* NFSNetworkingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1790AD1DBDE921003E1B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1790C21DBDE924003E1B55 /* LaunchScreen.storyboard in Resources */,
+				BD1790BF1DBDE924003E1B55 /* Assets.xcassets in Resources */,
+				BD1790BD1DBDE923003E1B55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1790C61DBDE924003E1B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014D4217E686A51D73DF1AA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFSNetworkingDemo/Pods-NFSNetworkingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06955C19C76CD002143A32F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		537BB7E0BD4DC3E77ABF68D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFSNetworkingDemoTests/Pods-NFSNetworkingDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B33399EF6661B1228CEBCB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D56E68D11096A1D99E8365B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFSNetworkingDemo/Pods-NFSNetworkingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B02BDF46ECC2DEC51A65D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFSNetworkingDemoTests/Pods-NFSNetworkingDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1790AB1DBDE921003E1B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1790BA1DBDE923003E1B55 /* ViewController.m in Sources */,
+				BD1790B71DBDE923003E1B55 /* AppDelegate.m in Sources */,
+				BD1790B41DBDE922003E1B55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1790C41DBDE924003E1B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1790CD1DBDE924003E1B55 /* NFSNetworkingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1790CA1DBDE924003E1B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1790AE1DBDE921003E1B55 /* NFSNetworkingDemo */;
+			targetProxy = BD1790C91DBDE924003E1B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD1790BB1DBDE923003E1B55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1790BC1DBDE923003E1B55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD1790C01DBDE924003E1B55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1790C11DBDE924003E1B55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1790CF1DBDE924003E1B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD1790D01DBDE924003E1B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1790D21DBDE924003E1B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE3D915E9857C3F29ECAA3A /* Pods-NFSNetworkingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NFSNetworkingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqdxxx.NFSNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD1790D31DBDE924003E1B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E6314FA6DB9367D437CDBA /* Pods-NFSNetworkingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NFSNetworkingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqdxxx.NFSNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD1790D51DBDE924003E1B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871B0BFDA2810216AFF65DF8 /* Pods-NFSNetworkingDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NFSNetworkingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqdxxx.NFSNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFSNetworkingDemo.app/NFSNetworkingDemo";
+			};
+			name = Debug;
+		};
+		BD1790D61DBDE924003E1B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3703373954519D79EAB856E9 /* Pods-NFSNetworkingDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NFSNetworkingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqdxxx.NFSNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFSNetworkingDemo.app/NFSNetworkingDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1790AA1DBDE921003E1B55 /* Build configuration list for PBXProject "NFSNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1790CF1DBDE924003E1B55 /* Debug */,
+				BD1790D01DBDE924003E1B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1790D11DBDE924003E1B55 /* Build configuration list for PBXNativeTarget "NFSNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1790D21DBDE924003E1B55 /* Debug */,
+				BD1790D31DBDE924003E1B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1790D41DBDE924003E1B55 /* Build configuration list for PBXNativeTarget "NFSNetworkingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1790D51DBDE924003E1B55 /* Debug */,
+				BD1790D61DBDE924003E1B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1790A71DBDE921003E1B55 /* Project object */;
+}

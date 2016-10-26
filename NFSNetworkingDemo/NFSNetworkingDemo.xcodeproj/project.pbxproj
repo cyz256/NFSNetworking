@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7629A173BCA51FE5AF363F16 /* libPods-NFSNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4465977E850EE5441D7024 /* libPods-NFSNetworkingDemo.a */; };
-		A1F7443CAD950545992404BF /* libPods-NFSNetworkingDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B8211690575153B4160CBB /* libPods-NFSNetworkingDemoTests.a */; };
 		BD1790B41DBDE922003E1B55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790B31DBDE922003E1B55 /* main.m */; };
 		BD1790B71DBDE923003E1B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790B61DBDE923003E1B55 /* AppDelegate.m */; };
 		BD1790BA1DBDE923003E1B55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790B91DBDE923003E1B55 /* ViewController.m */; };
@@ -30,10 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3703373954519D79EAB856E9 /* Pods-NFSNetworkingDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemoTests/Pods-NFSNetworkingDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		74B8211690575153B4160CBB /* libPods-NFSNetworkingDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFSNetworkingDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE3D915E9857C3F29ECAA3A /* Pods-NFSNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemo/Pods-NFSNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		871B0BFDA2810216AFF65DF8 /* Pods-NFSNetworkingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemoTests/Pods-NFSNetworkingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD1790AF1DBDE921003E1B55 /* NFSNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFSNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1790B31DBDE922003E1B55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD1790B51DBDE922003E1B55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F7443CAD950545992404BF /* libPods-NFSNetworkingDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +74,6 @@
 			children = (
 				7DE3D915E9857C3F29ECAA3A /* Pods-NFSNetworkingDemo.debug.xcconfig */,
 				C8E6314FA6DB9367D437CDBA /* Pods-NFSNetworkingDemo.release.xcconfig */,
-				871B0BFDA2810216AFF65DF8 /* Pods-NFSNetworkingDemoTests.debug.xcconfig */,
-				3703373954519D79EAB856E9 /* Pods-NFSNetworkingDemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -508,7 +502,6 @@
 		};
 		BD1790D51DBDE924003E1B55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 871B0BFDA2810216AFF65DF8 /* Pods-NFSNetworkingDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NFSNetworkingDemoTests/Info.plist;
@@ -521,7 +514,6 @@
 		};
 		BD1790D61DBDE924003E1B55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3703373954519D79EAB856E9 /* Pods-NFSNetworkingDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NFSNetworkingDemoTests/Info.plist;

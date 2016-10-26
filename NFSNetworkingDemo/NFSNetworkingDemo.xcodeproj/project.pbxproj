@@ -16,6 +16,7 @@
 		BD1790BF1DBDE924003E1B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1790BE1DBDE924003E1B55 /* Assets.xcassets */; };
 		BD1790C21DBDE924003E1B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1790C01DBDE924003E1B55 /* LaunchScreen.storyboard */; };
 		BD1790CD1DBDE924003E1B55 /* NFSNetworkingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1790CC1DBDE924003E1B55 /* NFSNetworkingDemoTests.m */; };
+		F35890591DC05A4800418ABA /* NFSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F35890581DC05A4800418ABA /* NFSNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		BD1790CC1DBDE924003E1B55 /* NFSNetworkingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFSNetworkingDemoTests.m; sourceTree = "<group>"; };
 		BD1790CE1DBDE924003E1B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8E6314FA6DB9367D437CDBA /* Pods-NFSNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFSNetworkingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFSNetworkingDemo/Pods-NFSNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F35890571DC05A4800418ABA /* NFSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFSNetworking.h; sourceTree = "<group>"; };
+		F35890581DC05A4800418ABA /* NFSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFSNetworking.m; sourceTree = "<group>"; };
 		FD4465977E850EE5441D7024 /* libPods-NFSNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFSNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +111,8 @@
 				BD1790B61DBDE923003E1B55 /* AppDelegate.m */,
 				BD1790B81DBDE923003E1B55 /* ViewController.h */,
 				BD1790B91DBDE923003E1B55 /* ViewController.m */,
+				F35890571DC05A4800418ABA /* NFSNetworking.h */,
+				F35890581DC05A4800418ABA /* NFSNetworking.m */,
 				BD1790BB1DBDE923003E1B55 /* Main.storyboard */,
 				BD1790BE1DBDE924003E1B55 /* Assets.xcassets */,
 				BD1790C01DBDE924003E1B55 /* LaunchScreen.storyboard */,
@@ -345,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1790BA1DBDE923003E1B55 /* ViewController.m in Sources */,
+				F35890591DC05A4800418ABA /* NFSNetworking.m in Sources */,
 				BD1790B71DBDE923003E1B55 /* AppDelegate.m in Sources */,
 				BD1790B41DBDE922003E1B55 /* main.m in Sources */,
 			);
